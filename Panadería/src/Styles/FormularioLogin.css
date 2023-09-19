@@ -1,0 +1,52 @@
+.main {
+  display: flex;
+  justify-content: center;
+  background-image: url("../assets/panbg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.conteiner {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+}
+
+.form-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 400px;
+  height: 350px;
+  background-color: rgba(240, 230, 140, 0.8);
+  border: none;
+  border-radius: 5px;
+}
+
+.form-login {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.form-login h1 {
+  font-size: 36px;
+  color: saddlebrown;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+.form-login input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #8b4513;
+  border-radius: 5px;
+  outline: none;
+  color: saddlebrown;
+  font-size: 18px;
+}
